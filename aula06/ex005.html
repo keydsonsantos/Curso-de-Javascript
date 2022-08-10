@@ -24,14 +24,16 @@
 
     <p>Aprendendo a usar o <strong>DOM</strong> em javascript</p>
 
-    <div>Clique aqui</div>
+    <div class="msg">Clique aqui</div>
 
     <script>
-        
-        var p1 = window.document.getElementsByTagName('p')[0]
-        window.document.white('Esta escrito assim: ' + p1.innerText)
 
+     var d = window.document.querySelector('div.msg')  
+     d.style.backgroud = 'blue'
+        
     </script>
+
+    
 
     <!-- 
         window == janela
