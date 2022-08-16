@@ -13,7 +13,7 @@ function verificar() {
             gênero = 'Homem'
             if (idade >=0 && idade < 12) {
                 //criança
-                Image.setAttribute('src', 'meninobebe')
+                img.setAttribute('src', 'meninobebe')
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'meninoadoles.png')
